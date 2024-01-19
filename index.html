@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container" data-tilt>
+        <form id="registrationForm">
+            <h2>Registration form</h2>
+            <div class="form-group">
+                <label for="username">Firstname:</label>
+                <input type="text" id="firstname" name="firstname" placeholder="enter firstname" required>
+            </div>
+            <div class="form-group">
+                <label for="username">Lastname:</label>
+                <input type="text" id="lastname" name="lastname" placeholder="enter lastname" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="abc@gmail.com" required>
+            </div>
+            <div class="form-group">
+                <div class="password-container">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="create  your password" required>
+                    <i class="toggle-password ri-eye-line" id="toggle-password"></i>
+                </div>
+            </div>
+            <div class="form-group">
+                <button class="button" type="submit">
+                  <span class="button-content">Submit</span>
+                </button>
+              </div>
+        </form>
+    </div>
+
+
+    <script src="index.js"></script>
+    <script src="vanilla-tilt.js"></script>
+</body>
+</html>
