@@ -26,7 +26,7 @@ body {
 
 h2 {
     text-align: center;
-    color:crimson;
+    color:#000;
     font-family: 'Space Grotesk', sans-serif;
 }
 
@@ -108,11 +108,7 @@ text-transform: capitalize;
     width: 100%;
     height: inherit;
     border-radius: inherit;
-    background: linear-gradient(
-      82.3deg,
-      rgb(115, 57, 200) 10.8%,
-      rgb(73, 67, 159) 94.3%
-    );
+    background-color:blue;
     transition: all 0.475s;
   }
   
